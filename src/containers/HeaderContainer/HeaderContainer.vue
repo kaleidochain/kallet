@@ -49,12 +49,6 @@
         ]"
         class="fixed-header"
       >
-        <div v-if="$route.fullPath === '/'" class="vintage-header">
-          Missing the vintage MEW?
-          <a rel="noopener noreferrer" href="https://vintage.myetherwallet.com"
-            >Click here to go back!</a
-          >
-        </div>
         <div
           :class="[
             (isMobileMenuOpen || !isPageOnTop) && 'mobile-menu-boxshadow',
@@ -79,6 +73,17 @@
             </router-link>
             <div class="top-menu">
               <b-nav>
+                <b-nav-item
+                  href="https://www.digifinex.vip/zh-cn/trade/USDT/KAL"
+                  target="_blank"
+                  class="buy-eth"
+                >
+                  <img
+                    class="buy-eth-icon"
+                    src="@/assets/images/icons/buy-eth.svg"
+                  />
+                  Buy Kal
+                </b-nav-item>
                 <b-nav-item
                   v-if="isHomePage"
                   to="/"

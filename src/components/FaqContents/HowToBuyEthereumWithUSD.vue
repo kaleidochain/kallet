@@ -205,7 +205,7 @@
       <p>
         Then create a Ethereum Wallet account and back it up. In Circle or
         Coinbase, send all the BTC to that address. The ETH will appear in your
-        ETH wallet in ~20 minutes.
+        Kaleidochain wallet in ~20 minutes.
       </p>
       <h5>Alternative steps 6-8:</h5>
       <p>
@@ -213,7 +213,7 @@
         syncing it. If for some reason you cannot get it to run, here is a list
         of easily accessible wallets. Follow the instructions provided by each
         of these wallets to back up your information. In Jaxx, that is a
-        mnemonic. In MyEtherWallet,
+        mnemonic. In KalWallet,
         <a
           rel="noopener noreferrer"
           href="https://kb.myetherwallet.com/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew"
@@ -234,7 +234,7 @@
             rel="noopener noreferrer"
             href="https://www.reddit.com/r/ethereum/comments/44vbef/myetherwallet_chrome_extension_the_beta_has/"
           >
-            MEW Chrome Extension
+            KalWallet Chrome Extension
           </a>
         </li>
         <li>

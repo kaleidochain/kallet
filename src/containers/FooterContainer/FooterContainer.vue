@@ -4,7 +4,7 @@
     <feedback-modal />
     <div class="wrap">
       <div class="page-container">
-        <div class="grid-col-1-1-1-2 footer-contents">
+        <!-- <div class="grid-col-1-1-1-2 footer-contents">
           <div
             v-for="(item, index) in footerContent"
             :ref="item.class"
@@ -88,10 +88,10 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="flex-space-between foot-note">
           <div class="links">
-            <div v-for="(link, index) in lowerLinks" :key="link.title + index">
+            <!-- <div v-for="(link, index) in lowerLinks" :key="link.title + index">
               <router-link v-if="link.hasOwnProperty('to')" :to="link.to">
                 <span>{{ link.title }}</span>
               </router-link>
@@ -103,23 +103,23 @@
               >
                 <span>{{ link.title }}</span>
               </a>
-            </div>
+            </div> -->
           </div>
           <div class="copyright">
             <p>
-              {{ $t('footer.pricingP') }}
+              <!-- {{ $t('footer.pricingP') }}
               <a
                 href="https://coingecko.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >CoinGecko</a
               >
-              <br />
+              <br /> -->
               {{ $t('footer.copyright') }}
             </p>
           </div>
           <div class="social">
-            <a
+            <!-- <a
               v-for="link in links"
               :href="link.to"
               :key="link.class"
@@ -127,7 +127,7 @@
               target="_blank"
             >
               <i :class="'fa ' + link.class" />
-            </a>
+            </a> -->
           </div>
         </div>
       </div>

@@ -82,7 +82,7 @@
             :highest-gas="highestGas"
             :nonce="nonce"
           />
-          <div class="tokens">
+          <!-- <div class="tokens">
             <interface-tokens
               :fetch-tokens="setTokens"
               :get-token-balance="getTokenBalance"
@@ -90,7 +90,7 @@
               :received-tokens="receivedTokens"
               :reset-token-selection="setTokensWithBalance"
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

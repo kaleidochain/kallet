@@ -26,7 +26,9 @@
 
     .banner-image {
       flex: 1;
-
+      background: black;
+      max-width: 500px;
+      border-radius: 220px;
       @media all and (max-width: 700px) {
         display: none;
       }

@@ -1,15 +1,26 @@
 export default {
   tabs: [
     {
+      name: 'dashboard',
+      onlineOnly: false,
+      routes: ['/interface/dashboard', '/interface'],
+      icons: {
+        active: require('@/assets/images/sidemenu/dashboard-active.svg'),
+        inactive: require('@/assets/images/sidemenu/dashboard.svg')
+      },
+      titleKey: 'interface.dashboard',
+      children: []
+    },
+    {
       name: 'send-transaction',
       onlineOnly: false,
       routes: [
         '/interface/send-transaction',
-        '/interface',
         '/interface/send-offline',
         '/interface/send-offline/generate-info',
         '/interface/send-offline/generate-tx',
-        '/interface/send-offline/send-tx'
+        '/interface/send-offline/send-tx',
+        '/interface/nft-manager'
       ],
       icons: {
         active: require('@/assets/images/sidemenu/send-active.svg'),
@@ -19,7 +30,7 @@ export default {
       children: [
         {
           name: 'send-transaction',
-          routes: ['/interface/send-transaction', '/interface'],
+          routes: ['/interface/send-transaction'],
           icons: {
             active: '',
             inactive: ''
@@ -39,20 +50,30 @@ export default {
             inactive: ''
           },
           titleKey: 'common.offline'
+        },
+        {
+          name: 'nft-manager',
+          onlineOnly: true,
+          routes: ['/interface/nft-manager'],
+          icons: {
+            active: '',
+            inactive: ''
+          },
+          titleKey: 'common.ntfManager'
         }
       ]
     },
-    {
-      name: 'swap',
-      onlineOnly: true,
-      routes: ['/interface/swap'],
-      icons: {
-        active: require('@/assets/images/sidemenu/swap-active.svg'),
-        inactive: require('@/assets/images/sidemenu/swap.svg')
-      },
-      titleKey: 'common.swap',
-      children: []
-    },
+    // {
+    //   name: 'swap',
+    //   onlineOnly: true,
+    //   routes: ['/interface/swap'],
+    //   icons: {
+    //     active: require('@/assets/images/sidemenu/swap-active.svg'),
+    //     inactive: require('@/assets/images/sidemenu/swap.svg')
+    //   },
+    //   titleKey: 'common.swap',
+    //   children: []
+    // },
     {
       name: 'dapps',
       onlineOnly: true,

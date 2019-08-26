@@ -29,6 +29,8 @@ import TT from './TT.js';
 import SUM from './SUM.js';
 import DXN from './DXN.js';
 import PHT from './PHT.js';
+import KAL from './KAL.js';
+import KALTEST from './KALTEST.js';
 
 export {
   AKA,
@@ -61,5 +63,7 @@ export {
   TT,
   SUM,
   DXN,
-  PHT
+  PHT,
+  KAL,
+  KALTEST
 };

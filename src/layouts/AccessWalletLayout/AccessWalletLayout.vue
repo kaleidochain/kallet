@@ -1,7 +1,7 @@
 <template>
   <div>
     <access-my-wallet-container />
-    <price-bar :v-if="online && tokens.length > 1" :tokens="tokens" />
+    <!-- <price-bar :v-if="online && tokens.length > 1" :tokens="tokens" /> -->
     <faqs />
   </div>
 </template>
@@ -30,7 +30,7 @@ export default {
   },
   async mounted() {
     if (this.online) {
-      this.tokens = await this.getRates();
+      //this.tokens = await this.getRates();
     }
   },
   methods: {

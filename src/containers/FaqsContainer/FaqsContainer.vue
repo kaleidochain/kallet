@@ -5,7 +5,7 @@
         <div class="flex-col-vertical-bottom top-title">
           <div class="title">
             <h2>{{ $t('common.faqs') }}</h2>
-            <h5>
+            <!-- <h5>
               {{ $t('home.faqsSubheading') }}
               <a
                 target="_blank"
@@ -14,9 +14,9 @@
               >
                 {{ $t('home.faqsSeeMore') }}
               </a>
-            </h5>
+            </h5> -->
           </div>
-          <customer-support />
+          <!-- <customer-support /> -->
         </div>
 
         <div class="qa-cards">

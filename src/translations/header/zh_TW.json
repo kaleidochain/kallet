@@ -19,7 +19,7 @@
   "maxTxFee": "最大的交易手續費",
   "investigate": "Use the transaction hash to investigate why this transaction failed.",
   "contractCreation": "建立合約",
-  "mewConnectDisconnected": "您似乎從 MEWconnect 斷線，請重新連線。",
+  "mewConnectDisconnected": "您似乎從  斷線，請重新連線。",
   "providerDepositAddress": "存入地址",
   "orderID": "{provider} order ID",
   "provider": "Provider",

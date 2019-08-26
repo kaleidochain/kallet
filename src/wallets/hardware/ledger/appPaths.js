@@ -21,7 +21,9 @@ import {
   TOMO,
   UBQ,
   TT,
-  PHT
+  PHT,
+  KAL,
+  KALTEST
 } from '@/networks/types';
 import {
   ethereum,
@@ -48,7 +50,9 @@ import {
   mixBlockchain,
   rskMainnet,
   rskTestnet,
-  thundercore
+  thundercore,
+  kaleido,
+  kaleidoTest
 } from '../../bip44/paths';
 const appList = [
   {
@@ -165,6 +169,16 @@ const appList = [
     network: PHT,
     prefixes: ["m/44'/60'"],
     paths: [ethereum]
+  },
+  {
+    network: KAL,
+    prefixes: ["m/44'/383'"],
+    paths: [kaleido]
+  },
+  {
+    network: KALTEST,
+    prefixes: ["m/44'/1'"],
+    paths: [kaleidoTest]
   }
 ];
 export default appList;

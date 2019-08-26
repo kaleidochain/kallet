@@ -20,7 +20,9 @@ import {
   tomoChain,
   mixBlockchain,
   iolite,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 } from './paths';
 export default [
   ethereum,
@@ -44,5 +46,7 @@ export default [
   tomoChain,
   mixBlockchain,
   iolite,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 ];

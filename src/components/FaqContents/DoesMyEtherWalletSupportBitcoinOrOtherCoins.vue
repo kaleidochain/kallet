@@ -33,8 +33,8 @@
     </p>
 
     <p>
-      Here is a list of default ERC-20 tokens that MEW supports (as of May 28,
-      2017). However,
+      Here is a list of default ERC-20 tokens that KalWallet supports (as of May
+      28, 2017). However,
       <a
         href="https://kb.myetherwallet.com/send/sending-and-adding-tokens.html"
         target="_blank"
@@ -52,7 +52,7 @@
           href="https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html"
           target="_blank"
           rel="noopener noreferrer"
-          >How can I add a non-default token to MEW?</a
+          >How can I add a non-default token to KalWallet?</a
         >
       </li>
       <li>
@@ -62,8 +62,8 @@
           rel="noopener noreferrer"
         >
           I am throwing a #FOMOFest (aka a token sale, token creation period,
-          ICO) and want to add my token to MEW for all my investors. What do I
-          do?
+          ICO) and want to add my token to KalWallet for all my investors. What
+          do I do?
         </a>
       </li>
     </ul>

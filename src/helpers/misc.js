@@ -5,6 +5,7 @@ import url from 'url';
 import utils from 'web3-utils';
 import store from '@/store';
 import { uint, address, string, bytes, bool } from './solidityTypes';
+import xss from 'xss';
 
 const capitalize = value => {
   if (!value) return '';
@@ -114,12 +115,16 @@ const validateHexString = str => {
 const reorderNetworks = () => {
   const oldObject = Object.assign({}, nodeList);
   delete oldObject['ETH'];
+  delete oldObject['KAL'];
+  delete oldObject['KALTEST'];
   delete oldObject['RIN'];
   delete oldObject['ROP'];
   const newObject = Object.assign(
     {},
     {
       ETH: nodeList['ETH'],
+      KAL: nodeList['KAL'],
+      KALTEST: nodeList['KALTEST'],
       ROP: nodeList['ROP'],
       RIN: nodeList['RIN'],
       ...oldObject
@@ -210,6 +215,17 @@ const isContractArgValid = (value, solidityType) => {
   return false;
 };
 
+const stripTags = content => {
+  const insertToDom = new DOMParser().parseFromString(content, 'text/html');
+  insertToDom.body.textContent.replace(/(<([^>]+)>)/gi, '') || '';
+  const string = xss(insertToDom.body.textContent, {
+    whitelist: [],
+    stripIgnoreTag: true,
+    stripIgnoreTagBody: '*'
+  });
+  return string;
+};
+
 export default {
   isJson,
   doesExist,
@@ -228,5 +244,6 @@ export default {
   capitalize,
   getService,
   stringToArray,
-  isContractArgValid
+  isContractArgValid,
+  stripTags
 };

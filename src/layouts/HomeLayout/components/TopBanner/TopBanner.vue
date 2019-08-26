@@ -9,7 +9,7 @@
             <p>{{ $t('home.subheading') }}</p>
           </div>
           <div class="banner-image">
-            <img src="~@/assets/images/home/big-spaceman.png" />
+            <img src="~@/assets/images/home/stars.svg" style="max-width: 476px;"/>
           </div>
         </div>
         <div class="grid-col-2 promo-cards">

@@ -1,15 +1,15 @@
 <template>
   <div>
     <p>
-      MyEtherWallet is not a web wallet. You don't have a login, and nothing
-      ever gets saved to our servers. It is simply an interface that allows you
-      to interact with the blockchain.
+      KalWallet is not a web wallet. You don't have a login, and nothing ever
+      gets saved to our servers. It is simply an interface that allows you to
+      interact with the blockchain.
     </p>
     <p>
-      If MyEtherWallet.com goes down, you would have to find another way (like
-      geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't
-      have to "get" your Ether out of MyEtherWallet because it's not in
-      MyEtherWallet. It's in whatever wallet your generated via our site.
+      If KalWallet.com goes down, you would have to find another way (like kalgo
+      or Ethereum Wallet / Mist) to do what we are doing. But you wouldn't have
+      to "get" your KAL out of KalWallet because it's not in KalWallet. It's in
+      whatever wallet your generated via our site.
     </p>
     <p>
       You can import your unencrypted private key and your Geth/Mist Format
@@ -21,7 +21,7 @@
         href="https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html"
         target="_blank"
         rel="noopener noreferrer"
-        >MyEtherWallet locally</a
+        >KalWallet locally</a
       >
       and/or
       <a

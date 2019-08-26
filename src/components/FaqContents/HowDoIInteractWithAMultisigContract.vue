@@ -86,8 +86,8 @@
             Look at your link and see what YOUR <abbr>_h</abbr> is. Copy it.
           </li>
           <li>
-            Go back to MyEtherWallet where you have the CONFIRM open and paste
-            that hash into the <abbr>_h</abbr> field.
+            Go back to KalWallet where you have the CONFIRM open and paste that
+            hash into the <abbr>_h</abbr> field.
           </li>
           <li>
             Click the <abbr>"WRITE"</abbr> button again and unlock the second

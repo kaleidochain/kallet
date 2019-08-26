@@ -143,6 +143,14 @@ const lightstreamsNetwork = {
   path: "m/44'/60'/0'/0",
   label: 'Lightstreams Network'
 };
+const kaleido = {
+  path: "m/44'/383'/0'/0",
+  label: 'Kaleido Network'
+};
+const kaleidoTest = {
+  path: "m/44'/1'/0'/0",
+  label: 'Kaleido Testnet'
+};
 export {
   ethereum,
   ethereumClassic,
@@ -179,5 +187,7 @@ export {
   poaNetwork,
   reoscChain,
   dexon,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 };

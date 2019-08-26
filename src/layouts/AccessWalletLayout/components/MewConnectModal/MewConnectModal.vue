@@ -30,7 +30,7 @@
             <img src="~@/assets/images/icons/appstore.svg" height="35" />
           </div>
           <a
-            href="http://play.google.com/store/apps/details?id=com.myetherwallet.mewconnect"
+            href="https://mew.kalscan.io/kalconnect/kalconnect-v1.0.6-release.apk"
             target="_blank"
             rel="noopener noreferrer"
           >

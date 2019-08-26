@@ -26,7 +26,9 @@ import {
   solidum,
   metadium,
   dexon,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 } from './paths';
 export default [
   ethereum,
@@ -56,5 +58,7 @@ export default [
   solidum,
   metadium,
   dexon,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 ];

@@ -13,7 +13,7 @@ const webpackConfig = {
   devtool: 'source-map',
   devServer: {
     https: true,
-    host: 'localhost',
+    host: '',
     hotOnly: true,
     port: 8080,
     writeToDisk: JSON.parse(env_vars.BUILD_TYPE) === 'mewcx',
@@ -21,7 +21,7 @@ const webpackConfig = {
       'Strict-Transport-Security':
         'max-age=63072000; includeSubdomains; preload',
       'Content-Security-Policy':
-        "default-src 'self' blob:; frame-src 'self' connect.trezor.io:443; img-src 'self' data: blob:; script-src 'unsafe-eval' 'unsafe-inline' blob: https:; style-src 'self' 'unsafe-inline' https:; object-src 'none'; connect-src *;",
+        "default-src 'self' blob:; frame-src 'self' connect.trezor.io:443; img-src 'self' https://nft.mewapi.io data: blob: ; script-src 'unsafe-eval' 'unsafe-inline' blob: https:; style-src 'self' 'unsafe-inline' https:; object-src 'none'; connect-src *;",
       'X-Content-Type-Options': 'nosniff',
       'X-Frame-Options': 'DENY',
       'X-XSS-Protection': '1; mode=block',
@@ -47,7 +47,7 @@ const webpackConfig = {
     new CopyWebpackPlugin([
       {
         from: 'src/builds/' + JSON.parse(env_vars.BUILD_TYPE) + '/public',
-        transform: function(content, filePath) {
+        transform: function (content, filePath) {
           if (filePath.split('.').pop() === ('js' || 'JS'))
             return UglifyJS.minify(content.toString()).code;
           if (
@@ -130,6 +130,9 @@ if (process.env.NODE_ENV === 'production') {
           'src/components/Notification/components/NotificationTypes/SwapNotification/index.js',
           'src/components/Notification/components/NotificationTypes/TransactionNotification/index.js',
           // Images
+          'src/assets/images/ads/mewconnect.png',
+          'src/assets/images/ads/mewconnect.jpg',
+          'src/assets/images/etc/mewconnect.jpeg',
           'src/assets/images/icons/button-finney.png',
           'src/assets/images/background/bg-left.png',
           'src/assets/images/background/bg-right.png',

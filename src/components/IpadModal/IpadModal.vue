@@ -8,7 +8,7 @@
       title="Address"
     >
       <div class="modal-contents">
-        MEWconnect is not compatible with iPads.
+        KALconnect is not compatible with iPads.
       </div>
     </b-modal>
   </div>

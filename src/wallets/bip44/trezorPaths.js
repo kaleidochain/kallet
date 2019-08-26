@@ -22,7 +22,9 @@ import {
   iolite,
   rskMainnet,
   rskTestnet,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 } from './paths';
 export default [
   ethereum,
@@ -48,5 +50,7 @@ export default [
   iolite,
   rskMainnet,
   rskTestnet,
-  lightstreamsNetwork
+  lightstreamsNetwork,
+  kaleido,
+  kaleidoTest
 ];

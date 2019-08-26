@@ -11,7 +11,7 @@
             <div v-if="showProgressBar && false" class="progress-bar" />
             <b-tab
               class="mew-connect-block"
-              title="MEWconnect"
+              title="KALconnect"
               active
               @click="showProgressBar = false"
             >
@@ -43,7 +43,7 @@
                       />
                     </div>
                     <a
-                      href="http://play.google.com/store/apps/details?id=com.myetherwallet.mewconnect"
+                      href="https://mew.kalscan.io/kalconnect/kalconnect-v1.0.6-release.apk"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -53,16 +53,16 @@
                       />
                     </a>
                   </div>
-                  <div class="download">
+                  <!-- <div class="download">
                     <p @click="scanToDownloadModalOpen">
                       {{ $t('createWallet.scanToDownload') }}
                     </p>
-                  </div>
+                  </div> -->
                 </div>
               </div>
-              <div class="bottom-image">
+              <!-- <div class="bottom-image">
                 <img src="@/assets/images/etc/phones.png" />
-              </div>
+              </div> -->
             </b-tab>
             <b-tab
               :title="$t('createWallet.byJsonFile')"

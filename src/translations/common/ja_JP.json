@@ -16,10 +16,10 @@
   "jsonF": "Keystore File",
   "mnemonicP": "暗号化フレーズ",
   "privKey": "秘密鍵",
-  "mewConnect": "MEWconnect",
+  "mewConnect": "KALconnect",
   "hardware": "ハードウェア",
   "noWallet": "ウォレットを持っていますか？",
-  "toolTip1": "残念なことに，私たちは毎日のようにこれらのフィッシング詐欺や攻撃に会っています．被害の原因としてよくあるのは悪意のあるウェブサイトに秘密鍵を入力してしまうことです．時にそれは偽のMyEtherWallet のサイト（例：myethreawllet[.]com )だったり，また偽のICOサイト，airdropサイト，EthZeroサイトだったりします．もしあなたが秘密鍵（もしくはキーストアファイル，暗号化フレーズ，パスワード）を悪意のあるサイトに入力すると，彼らはあなたのファンドへの完全なアクセスを手に入れてしまいます．ブロックチェーンや暗号法の性質として，これを元に戻したりリセットしたりする方法はありません．一度でもトランザクションがブロックチェーン上にでると終わりです．このため，あなたは直ちにあなたのファンドを移動させ，このウォレットの使用を停止する必要があります．私たちは積極的にこうしたサイトを運営する人を突き止めたり，他の人へ警告したり，そのサイトを破壊したり，状況に応じてその他できることはなんでも試みます．",
+  "toolTip1": "残念なことに，私たちは毎日のようにこれらのフィッシング詐欺や攻撃に会っています．被害の原因としてよくあるのは悪意のあるウェブサイトに秘密鍵を入力してしまうことです．時にそれは偽のKalWallet のサイト（例：wallet.kalscan.io )だったり，また偽のICOサイト，airdropサイト，EthZeroサイトだったりします．もしあなたが秘密鍵（もしくはキーストアファイル，暗号化フレーズ，パスワード）を悪意のあるサイトに入力すると，彼らはあなたのファンドへの完全なアクセスを手に入れてしまいます．ブロックチェーンや暗号法の性質として，これを元に戻したりリセットしたりする方法はありません．一度でもトランザクションがブロックチェーン上にでると終わりです．このため，あなたは直ちにあなたのファンドを移動させ，このウォレットの使用を停止する必要があります．私たちは積極的にこうしたサイトを運営する人を突き止めたり，他の人へ警告したり，そのサイトを破壊したり，状況に応じてその他できることはなんでも試みます．",
   "toolTip2": "被害の原因としてよくあるのは悪意のあるウェブサイトに秘密鍵を入力してしまうことです．",
   "toolTip3": "残念なことに，私たちは毎日のようにこれらのフィッシング詐欺や攻撃に会っています．",
   "previous": "戻る",
@@ -54,7 +54,10 @@
   "sign": "サイン",
   "toAddress": "宛先アドレス",
   "cancel": "キャンセル",
+  "actions": "Actions",
   "value": "値",
+  "more": "More",
+  "viewAll": "View All",
   "gasLimit": "ガスリミット",
   "gasPrice": "ガソリン価格",
   "data": "データ",
@@ -80,5 +83,7 @@
   "read": "Read",
   "notRecommended": "NOT RECOMMENDED",
   "notRecommendedMessage": "This is not a recommended way to access your wallet. Due to the sensitivity of the information involved, these options should only be used in offline settings by experienced users.",
-  "usingMewOffline": "Using MEW Offline"
+  "usingMewOffline": "Using KalWallet Offline",
+  "twitterFollow": "Follow us on Twitter",
+  "ntfManager": "NFT Manager"
 }

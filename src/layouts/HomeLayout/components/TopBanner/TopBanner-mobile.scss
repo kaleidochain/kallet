@@ -29,7 +29,10 @@
     .banner-image {
       flex: 1;
       display: none;
-
+      flex: 1;
+      background: black;
+      max-width: 500px;
+      border-radius: 220px;
       img {
         display: block;
         height: 452px;

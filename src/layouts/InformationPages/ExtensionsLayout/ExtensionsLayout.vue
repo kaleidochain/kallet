@@ -51,21 +51,21 @@ export default {
         {
           image: mewLogo,
           title: 'MyEtherWallet Chrome',
-          description: 'Use MEW without internet',
+          description: 'Use KalWallet without internet',
           linkName: 'Download',
           linkURL: 'https://google.com'
         },
         {
           image: metamask,
           title: 'MetaMask Chrome',
-          description: 'Use MEW without internet',
+          description: 'Use KalWallet without internet',
           linkName: 'Download',
           linkURL: 'https://google.com'
         },
         {
           image: ethereum,
           title: 'EtherAddressLookup',
-          description: 'Use MEW without internet',
+          description: 'Use KalWallet without internet',
           linkName: 'Download',
           linkURL: 'https://google.com'
         }
