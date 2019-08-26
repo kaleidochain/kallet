@@ -34,7 +34,7 @@
   "howToSendTxDesc": "任何有KAL或其他代币的账户都可以免费使用 KalWallet 发送交易,区块链本身会收取一定gas作为交易手续费,我们建议账户至少持有 0.01 KAL,大概能支付2-3笔交易手续费.更多点击",
   "forgotPasswordPrivKeyTitle": "忘记钱包密码或私钥,如何找回?",
   "forgotPasswordPrivKeyDesc": "KalWallet 不持久化保存账户,无法提供密码/私钥找回功能,我们强烈建议用户使用笔记本记录,并妥善保管.更多使用注意事项,点击",
-  "welcomeTov5": "Welcome to KalWallet V5",
+  "welcomeTov5": "Welcome to KalWallet",
   "welcomeToV5Desc1": "Welcome to the brand new KalWallet! If this is your first time visiting, check out our {0}.",
   "welcomeToV5Desc2": "Vintage KalWallet can still be accessed {0}, or at the bottom of the page.",
   "welcomeToLink1": "Medium article on what's new",

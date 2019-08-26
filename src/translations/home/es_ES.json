@@ -34,7 +34,7 @@
   "howToSendTxDesc": "KalWallet lets anyone with a balance of KAL or ERC20 tokens send a transaction, without additional charges. Using the Kaleidochain takes gas, which is paid for in KAL, so we recommend having at least .01 KAL to cover around 2 - 3 transactions. Read more",
   "forgotPasswordPrivKeyTitle": "I forgot my password/private key! What can I do?",
   "forgotPasswordPrivKeyDesc": "KalWallet does not offer support to recover or reset passwords/private keys. We always suggest writing down private keys and passwords on physical paper/notebooks for safekeeping. Maybe you saved it on your computer! For ideas on what to look for, read more",
-  "welcomeTov5": "Welcome to KalWallet V5",
+  "welcomeTov5": "Welcome to KalWallet",
   "welcomeToV5Desc1": "Welcome to the brand new KalWallet! If this is your first time visiting, check out our {0}.",
   "welcomeToV5Desc2": "Vintage KalWallet can still be accessed {0}, or at the bottom of the page.",
   "welcomeToLink1": "Medium article on what's new",
