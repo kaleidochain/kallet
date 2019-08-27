@@ -36,7 +36,7 @@
   "forgotPasswordPrivKeyDesc": "Kallet 不持久化保存账户,无法提供密码/私钥找回功能,我们强烈建议用户使用笔记本记录,并妥善保管.更多使用注意事项,点击",
   "welcomeTov5": "Welcome to Kallet",
   "welcomeToV5Desc1": "Welcome to the brand new Kallet! If this is your first time visiting, check out our {0}.",
-  "welcomeToV5Desc2": "Vintage Kallet can still be accessed {0}, or at the bottom of the page.",
+  "welcomeToV5Desc2": "Vintage Kallet can still be accessed {0}.",
   "welcomeToLink1": "Medium article on what's new",
   "welcomeToLink2": "here",
   "onwards": "Onwards"
