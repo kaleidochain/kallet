@@ -114,17 +114,17 @@ const validateHexString = str => {
 
 const reorderNetworks = () => {
   const oldObject = Object.assign({}, nodeList);
-  delete oldObject['ETH'];
   delete oldObject['KAL'];
   delete oldObject['KALTEST'];
+  delete oldObject['ETH'];
   delete oldObject['RIN'];
   delete oldObject['ROP'];
   const newObject = Object.assign(
     {},
     {
-      ETH: nodeList['ETH'],
       KAL: nodeList['KAL'],
       KALTEST: nodeList['KALTEST'],
+      ETH: nodeList['ETH'],
       ROP: nodeList['ROP'],
       RIN: nodeList['RIN'],
       ...oldObject

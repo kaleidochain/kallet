@@ -5,5 +5,5 @@
   "userTimeout": "Timed out. To confirm a transaction, hold the BitBox touch button for 4 seconds.",
   "notInitialized": "The BitBox is not initialized. Use Shift Cryptosecurity's BitBox App to set up a wallet.",
   "upgradeFirmware": "Please upgrade to the newest firmware using Shift Cryptosecurity's BitBox App.",
-  "unsupportedFirmware": "KalWallet does not yet support this version of the firmware"
+  "unsupportedFirmware": "Kallet does not yet support this version of the firmware"
 }

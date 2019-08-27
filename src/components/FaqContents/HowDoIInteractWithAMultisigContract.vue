@@ -86,7 +86,7 @@
             Look at your link and see what YOUR <abbr>_h</abbr> is. Copy it.
           </li>
           <li>
-            Go back to KalWallet where you have the CONFIRM open and paste that
+            Go back to Kallet where you have the CONFIRM open and paste that
             hash into the <abbr>_h</abbr> field.
           </li>
           <li>

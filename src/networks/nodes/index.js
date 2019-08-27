@@ -7,11 +7,6 @@ import esn from './esn';
 import etcethereumcommonwealthgeth from './etc-ethereumcommonwealth-geth';
 import etcethereumcommonwealthparity from './etc-ethereumcommonwealth-parity';
 import ethethscan from './eth-ethscan';
-import ethinfura from './eth-infura';
-import ethinfuraws from './eth-infura-ws';
-import ethpocket from './eth-pocket';
-import ethmew from './eth-mew';
-import ethmewws from './eth-mew-ws';
 import etho from './etho';
 import go from './go';
 import kovethscan from './kov-ethscan';
@@ -58,11 +53,6 @@ export {
   etcethereumcommonwealthgeth,
   etcethereumcommonwealthparity,
   ethethscan,
-  ethinfura,
-  ethinfuraws,
-  ethpocket,
-  ethmew,
-  ethmewws,
   etho,
   exp,
   goerli,

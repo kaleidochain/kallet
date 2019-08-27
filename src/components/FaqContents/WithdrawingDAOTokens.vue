@@ -250,8 +250,7 @@
         >
         is the address that should receive the ETC (without 0x in front). This
         can be an exchange address, but I recommend you send it to your DAO
-        Token address and then send it to an exchange from there using
-        KalWallet.
+        Token address and then send it to an exchange from there using Kallet.
       </li>
       <li>
         <abbr
