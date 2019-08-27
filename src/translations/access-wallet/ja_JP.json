@@ -19,7 +19,7 @@
   "installMetaMaskModalDesc": "Metamask 拡張機能をインストールして、ページを更新してください。",
   "refresh": "更新",
   "unlockMetamaskWallet": "ウォレットにアクセスできません! Metamask 拡張機能によってあなたの財布のロックを解除してください。",
-  "metaMaskModalDesc": "KalWalletへの接続には安全なコネクション(SSL/HTTPS) を使用してください",
+  "metaMaskModalDesc": "Kalletへの接続には安全なコネクション(SSL/HTTPS) を使用してください",
   "software": "ソフトウェア",
   "softwareDesc": "Keystore file, Private key, Mnemonic phrase",
   "notRecommended": "非推奨",

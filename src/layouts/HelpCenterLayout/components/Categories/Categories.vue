@@ -73,7 +73,7 @@ export default {
           icon: iconCommunity,
           title: 'Community',
           description:
-            'Join our KalWallet community, and get more information from us.',
+            'Join our Kallet community, and get more information from us.',
           social: [
             { icon: iconSlack, link: 'https://slack.com' },
             { icon: iconReddit, link: 'https://reddit.com' },

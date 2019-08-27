@@ -19,7 +19,7 @@
   "installMetaMaskModalDesc": "請安裝 Metamask 並重新整理頁面",
   "refresh": "重新整理",
   "unlockMetamaskWallet": "無法存取錢包! 請使用 Metamask 來解鎖您的錢包",
-  "metaMaskModalDesc": "請在一個安全的網路連線中 (SSL/HTTPS) 使用 KalWallet。",
+  "metaMaskModalDesc": "請在一個安全的網路連線中 (SSL/HTTPS) 使用 Kallet。",
   "software": "軟體",
   "softwareDesc": "Keystore 檔案，私鑰，助記詞",
   "notRecommended": "不建議",

@@ -213,7 +213,7 @@
         syncing it. If for some reason you cannot get it to run, here is a list
         of easily accessible wallets. Follow the instructions provided by each
         of these wallets to back up your information. In Jaxx, that is a
-        mnemonic. In KalWallet,
+        mnemonic. In Kallet,
         <a
           rel="noopener noreferrer"
           href="https://kb.myetherwallet.com/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew"
@@ -234,7 +234,7 @@
             rel="noopener noreferrer"
             href="https://www.reddit.com/r/ethereum/comments/44vbef/myetherwallet_chrome_extension_the_beta_has/"
           >
-            KalWallet Chrome Extension
+            Kallet Chrome Extension
           </a>
         </li>
         <li>
