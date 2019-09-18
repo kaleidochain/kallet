@@ -23,10 +23,10 @@
                     $t(`privacyPol.${item}`).includes('at:') ||
                       $t(`privacyPol.${item}`).includes('to:')
                   "
-                  href="mailto:support@myetherwallet.com"
+                  href="mailto:support@kaleidochain.io"
                   rel="noopener noreferrer"
                 >
-                  support@myetherwallet.com
+                  support@kaleidochain.io
                 </a>
               </p>
               <p v-else-if="item.includes('Item')">

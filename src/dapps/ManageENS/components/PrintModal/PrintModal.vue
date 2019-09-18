@@ -45,7 +45,7 @@
       <div class="print-modal-footer">
         <div>
           <img src="@/assets/images/icons/support.svg" />
-          <span>support@myetherwallet.com</span>
+          <span>support@kaleidochain.io</span>
         </div>
         <div>
           <img src="@/assets/images/icons/web-solution.svg" />

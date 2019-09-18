@@ -91,19 +91,19 @@
         </div> -->
         <div class="flex-space-between foot-note">
           <div class="links">
-            <!-- <div v-for="(link, index) in lowerLinks" :key="link.title + index">
+            <div v-for="(link, index) in lowerLinks" :key="link.title + index">
               <router-link v-if="link.hasOwnProperty('to')" :to="link.to">
                 <span>{{ link.title }}</span>
               </router-link>
               <a
                 v-else
                 :href="link.href"
-                target="_blank"
+                target="_self"
                 rel="noopener noreferrer"
               >
                 <span>{{ link.title }}</span>
               </a>
-            </div> -->
+            </div>
           </div>
           <div class="copyright">
             <p>
@@ -151,22 +151,23 @@ export default {
     return {
       version: version,
       lowerLinks: [
-        {
-          title: this.$t('footer.feedback'),
-          href: 'mailto:support@myetherwallet.com'
-        },
+        // {
+        //   title: this.$t('footer.feedback'),
+        //   href: 'mailto:support@kaleidochain.io'
+        // },
         {
           title: this.$t('footer.privacy'),
-          to: '/privacy-policy'
+          href: '/privacy'
         },
         {
           title: this.$t('common.terms'),
-          to: '/terms-and-conditions'
-        },
-        {
-          title: `v${version}`,
-          href: `https://github.com/MyEtherWallet/MyEtherWallet/releases/tag/v${version}`
-        }
+          href: '/terms'
+         }
+        // ,
+        // {
+        //   title: `v${version}`,
+        //   href: `https://github.com/MyEtherWallet/MyEtherWallet/releases/tag/v${version}`
+        // }
       ],
       footerContent: [
         {
@@ -231,7 +232,7 @@ export default {
             },
             {
               text: this.$t('common.customerSupport'),
-              href: 'mailto:support@myetherwallet.com'
+              href: 'mailto:support@kaleidochain.io'
             },
             {
               text: 'Help Center',
