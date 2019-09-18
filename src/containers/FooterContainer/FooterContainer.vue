@@ -162,7 +162,7 @@ export default {
         {
           title: this.$t('common.terms'),
           href: '/terms'
-         }
+        }
         // ,
         // {
         //   title: `v${version}`,
