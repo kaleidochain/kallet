@@ -12,10 +12,10 @@ Object.keys(nodes).forEach(key => {
     nodes[key].service === 'infura.io' &&
     platform.name &&
     platform.name === 'firefox'
-  ) {
+  )
     return;
-    // temp until infura fix https://github.com/INFURA/infura/issues/174
-  }
+  // temp until infura fix https://github.com/INFURA/infura/issues/174
+
   nodeList[nodes[key].type.name].push(nodes[key]);
 });
 
