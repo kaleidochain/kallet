@@ -27,7 +27,7 @@
         {{ $t('dapps.confirm') }}
       </button>
       <interface-bottom-text
-        link="mailto:support@myetherwallet.com"
+        link="mailto:support@kaleidochain.io"
         link-text="https://kb.myetherwallet.com"
         question="Having issues?"
       />

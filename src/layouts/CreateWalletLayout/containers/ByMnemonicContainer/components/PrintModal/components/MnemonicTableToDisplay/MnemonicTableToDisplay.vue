@@ -7,7 +7,7 @@
       </div>
       <div class="support">
         <img src="~@/assets/images/icons/support.svg" />
-        <p>support@myetherwallet.com</p>
+        <p>support@kaleidochain.io</p>
       </div>
     </div>
     <div class="warnings">

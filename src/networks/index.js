@@ -15,9 +15,8 @@ Object.keys(nodes).forEach(key => {
   )
     return;
   // temp until infura fix https://github.com/INFURA/infura/issues/174
-  else {
-    nodeList[nodes[key].type.name].push(nodes[key]);
-  }
+
+  nodeList[nodes[key].type.name].push(nodes[key]);
 });
 
 export default nodeList;
