@@ -157,11 +157,11 @@ export default {
         // },
         {
           title: this.$t('footer.privacy'),
-          href: '/privacy-policy/'
+          href: '/privacy/'
         },
         {
           title: this.$t('common.terms'),
-          href: '/terms-and-conditions/'
+          href: '/terms/'
         }
         // ,
         // {
