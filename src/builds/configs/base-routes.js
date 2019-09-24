@@ -43,13 +43,13 @@ const router = [
     meta: { requiresAuth: false }
   },
   {
-    path: '/privacy-policy',
+    path: '/privacy',
     name: 'PrivacyPolicyLayout',
     component: PrivacyPolicyLayout,
     meta: { requiresAuth: false }
   },
   {
-    path: '/terms-and-conditions',
+    path: '/terms',
     name: 'TermsAndConditionsLayout',
     component: TermsAndConditionsLayout,
     meta: { requiresAuth: false }
